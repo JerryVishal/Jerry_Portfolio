@@ -22,9 +22,9 @@ const projects = [
   {
     num: "01",
     category: "Data Viz",
-    title: "Tableau Dashboard 1",
+    title: "Airbnb_Tableau_Dashboard",
     description:
-      "This dashboard provides an analysis of superstore sales, focusing on customer profitability and regional performance. It includes a treemap highlighting customer orders, profits, and discounts, alongside a geographical map showing profit distribution across various U.S. regions. Additionally, a bar chart visualizes customer trends by sub-category, offering insights into product performance and sales trends.",
+      "This project involves creating an interactive Airbnb dashboard using Tableau, showcasing key metrics such as average price, property types, and reviews across major U.S. cities. It features various visualizations, including bar charts, pie charts, and heatmaps, providing insights into neighborhood trends, host responses, and historical data. The dashboard aims to help users quickly understand market dynamics and make informed decisions.",
 
     stack: [
       { name: "Tableau" },
@@ -38,14 +38,14 @@ const projects = [
   {
     num: "02",
     category: "Data Viz",
-    title: "Tableau Dashboard 2",
+    title: "Excel_Dashboard",
     description:
-      "This dashboard provides a comprehensive visualization of expenses across different years, categorized by municipality, province, and type of expenditure. The bar charts display the breakdown of amounts spent in categories such as Obligation, Optional, and Survival, highlighting trends and patterns in spending behavior over time. The heatmap further illustrates the distribution of expenses, offering a detailed comparison across various categories and locations.",
+      "This Car Sales Dashboard for India 2021 provides an interactive analysis of vehicle sales data, featuring metrics such as transmission types, ownership percentages, and model counts. It includes dynamic visualizations, such as doughnut charts, bar graphs, and line charts, offering insights into trends across car models, years, and brands. Designed for intuitive navigation, the dashboard is optimized for decision-making and performance tracking.",
 
     stack: [
-      { name: "Tableau" },
-      { name: "Calculated Fields" },
-      { name: "Mapping" },
+      { name: "MS Excel" },
+      { name: "Pivot table" },
+      { name: "Vlookup" },
     ],
     image: "/assets/work/Dashboard 2.png",
     live: "",
@@ -83,6 +83,10 @@ const work = () => {
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-amber-500 transition-all duration-500 capitalize">
                 {project.category}
               </h2>
+              {/* project title */}
+              <h1 className="text-[36px] font-bold leading-none text-white/20 hover:text-amber-500 transition-all duration-500 capitalize">
+                {project.title}
+              </h1>
 
               {/* project description */}
               <p className="text-white/60">{project.description}</p>
@@ -120,7 +124,7 @@ const work = () => {
                         <Image
                           src={project.image}
                           fill
-                          className="object-cover"
+                          className="object-contain" // Changed to 'object-contain'
                           alt=""
                         />
                       </div>
