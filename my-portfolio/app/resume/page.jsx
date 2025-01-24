@@ -83,7 +83,7 @@ const experience = {
 const education = {
   title: "My Education",
   description:
-    "Specializing in Data Analytics Engineering, focusing on advanced data modeling, statistical analysis, and visualization techniques. Proficient in leveraging tools like Python, SQL, and Tableau to derive actionable insights, with a strong academic foundation reflected in a 3.78 GPA.",
+    "Specializing in Data Analytics Engineering, focusing on advanced data modeling, statistical analysis, and visualization techniques. Proficient in leveraging tools like Python, SQL, and Tableau to derive actionable insights, with a strong academic foundation reflected in a 3.82 GPA.",
   items: [
     {
       institution: "George Mason University",
