@@ -27,7 +27,7 @@ const Home = () => {
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2"
-                onClick={() => window.location.href = '/Resume_edit2.pdf'}
+                onClick={() => window.location.href = '/JerryVishal-2025-Resume.pdf'}
               >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />

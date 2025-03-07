@@ -66,17 +66,18 @@ const experience = {
   title: "My Experience",
   description: `Proven expertise in data analytics, ETL automation, and dashboard development with a track record of improving operational efficiency by up to 40%. Successfully designed interactive dashboards, streamlined workflows, and created data models using SQL, Python, Tableau, and Power BI. Adept at data cleaning, transformation, and delivering actionable insights to stakeholders through data storytelling and advanced analytics.`,
   items: [
+    { company: "Amazon", Position: "Data Analyst", Duration: "2022-2023" },
     {
       company: "Mentored Minds",
       Position: "Data Analyst intern",
-      Duration: "Summer 2023",
+      Duration: "Summer 2022",
     },
     {
       company: "Tata Group",
       Position: "Data Analyst intern",
-      Duration: "Summer 2022",
-    },
-    { company: "Amazon", Position: "Data Analyst", Duration: "2021-2022" },
+      Duration: "2021 - 2022",
+    }
+    
   ],
 };
 
