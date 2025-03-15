@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import Photo from "@/components/ui/Photo";
 import { FiDownload, FiGithub, FiLinkedin, FiMonitor } from "react-icons/fi";
-import Resume from "./resume/page"; // Ensure this path is correct
+import Resume from "./resume/page"; 
 import Expertise from "./services/page";
 import Work from "./work/page";
 
