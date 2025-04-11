@@ -51,6 +51,22 @@ const projects = [
     live: "",
     github: "",
   },
+  {
+    num: "03",
+    category: "ETL Pipeline",
+    title: "Real-Time E-commerce Fraud Detection Pipeline",
+    description:
+      " 🔹 Designed and deployed a modular ETL pipeline for an e-commerce platform using synthetic transaction data 🔹 Integrated real-time fraud detection via AWS Lambda using business logic thresholds🔹 Sent fraud alerts automatically via Amazon SNS (email notifications)🔹 Exported aggregated metrics to Amazon S3, and built analytics dashboards in Amazon Redshift & QuickSight",
+
+    stack: [
+      { name: " Synthetic Data Generation" },
+      { name: "Docker - Postgres, Apache Airflow" },
+      { name: "AWS - Lambda, SNS, Redshift, QuickSight" },
+    ],
+    image: "/assets/work/Dashboard 3.png",
+    live: "",
+    github: "",
+  },
 ];
 
 const work = () => {
